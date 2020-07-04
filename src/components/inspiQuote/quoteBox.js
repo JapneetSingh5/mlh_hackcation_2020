@@ -41,7 +41,7 @@ class RandomQuote extends Component {
          <div id='wrapper'>
             <div id='quote-box'>
                <div id='text'><p>{quote}</p></div>
-               <div id='author'><h5>{author}</h5></div>
+               <div id='author'><h6>{author}</h6></div>
 
                <div id='buttons'>
                   <button id='new-quote' className='buttons' onClick={this.getNewQuote}>New Quote</button>

@@ -1,4 +1,11 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect
+} from "react-router-dom";
+
 import Navbar from "./components/navbar/Navbar";
 import { Header } from "./components/activities/Header";
 import { CardList, MultiList } from "./components/activities/CardList";
@@ -21,10 +28,35 @@ class App extends Component {
 
     return (
       <>
-        <Navbar 
-          navbarState={this.state.navbarOpen} 
-          handleNavbar={this.handleNavbar}
-        />
+      <Router>
+      <Navbar 
+      navbarState={this.state.navbarOpen} 
+      handleNavbar={this.handleNavbar}
+    />
+        <Switch>
+            <Route exact path="/home">
+              <Home />
+            </Route>
+            <Route exact path="/foryou">
+              <ForYou navbarOpen={this.state.navbarOpen} handleNavbar={this.handleNavbar} />
+            </Route>
+            <Route exact path="/explore">
+              <Explore />
+            </Route>
+            <Redirect to="/home" />
+        </Switch>
+      </Router>
+      <GlobalStyle />
+      </>
+    )
+  }
+}
+
+export default App;
+
+function ForYou(){
+  return(
+    <div>
         <div className="container">
           <Header />
           <br />
@@ -35,10 +67,17 @@ class App extends Component {
           <MultiList />
           <Footer />
         </div>
-        <GlobalStyle />
-      </>
-    )
-  }
+        </div>
+  );
 }
 
-export default App
+
+function Home() {
+  return <h2 style={{"marginTop": 100}}>Landing page</h2>;
+}
+
+function Explore() {
+  return <h2 style={{"marginTop": 100}}>Explore Page</h2>;
+}
+
+

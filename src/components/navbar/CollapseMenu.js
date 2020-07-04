@@ -3,6 +3,10 @@ import styled from 'styled-components';
 import { GoHome, GoHeart, GoSearch } from "react-icons/go";
 
 import { useSpring, animated } from 'react-spring';
+import {
+  BrowserRouter as Router,
+  Link
+} from "react-router-dom";
 
 const CollapseMenu = (props) => {
   const { open } = useSpring({ open: props.navbarState ? 0 : 1 });
@@ -17,9 +21,11 @@ const CollapseMenu = (props) => {
       }}
       >
         <NavLinks>
-          <li><a href="/" onClick={props.handleNavbar}><GoHome /> Home</a></li>
-          <li><a href="/" onClick={props.handleNavbar}><GoHeart /> For You</a></li>
-          <li><a href="/" onClick={props.handleNavbar}><GoSearch /> Explore</a></li>
+        <Router>
+          <li><Link to="/" onClick={props.handleNavbar}><GoHome /> Home</Link></li>
+          <li><Link to="/" onClick={props.handleNavbar}><GoHeart /> For You</Link></li>
+          <li><Link to="/" onClick={props.handleNavbar}><GoSearch /> Explore</Link></li>
+          </Router>
         </NavLinks>
       </CollapseWrapper>
     );
