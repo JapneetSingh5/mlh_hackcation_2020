@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 import Navbar from "./components/navbar/Navbar";
+import { Header } from "./components/activities/Header";
+import { CardList } from "./components/activities/CardList";
+import './App.css';
 
 import GlobalStyle from './styles/Global';
 
@@ -20,6 +23,10 @@ class App extends Component {
           navbarState={this.state.navbarOpen} 
           handleNavbar={this.handleNavbar}
         />
+        <div className="container">
+          <Header />
+          <CardList />
+        </div>
         <GlobalStyle />
       </>
     )
