@@ -4,8 +4,7 @@ import { GoHome, GoHeart, GoSearch } from "react-icons/go";
 
 import { useSpring, animated } from 'react-spring';
 import {
-  BrowserRouter as Router,
-  Link
+  NavLink
 } from "react-router-dom";
 
 const CollapseMenu = (props) => {
@@ -21,11 +20,9 @@ const CollapseMenu = (props) => {
       }}
       >
         <NavLinks>
-        <Router>
-          <li><Link to="/" onClick={props.handleNavbar}><GoHome /> Home</Link></li>
-          <li><Link to="/" onClick={props.handleNavbar}><GoHeart /> For You</Link></li>
-          <li><Link to="/" onClick={props.handleNavbar}><GoSearch /> Explore</Link></li>
-          </Router>
+          <li><NavLink to="/home" onClick={props.handleNavbar}><GoHome /> Home</NavLink></li>
+          <li><NavLink to="/foryou" onClick={props.handleNavbar}><GoHeart /> For You</NavLink></li>
+          <li><NavLink to="/explore" onClick={props.handleNavbar}><GoSearch /> Explore</NavLink></li>
         </NavLinks>
       </CollapseWrapper>
     );
@@ -36,6 +33,7 @@ const CollapseMenu = (props) => {
 export default CollapseMenu;
 
 const CollapseWrapper = styled(animated.div)`
+  z-index: 10000;
   background: #2d3436;
   position: fixed;
   top: 4.5rem;
