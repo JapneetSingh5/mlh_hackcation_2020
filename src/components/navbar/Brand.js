@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from "styled-components";
-import { FcLandscape } from "react-icons/go";
 
 import logo from "../../assets/logo-min.png";
 
