@@ -82,23 +82,17 @@ li {
   position: relative;
   padding: 25px;
   height: 460px;
-  flex: 0 0 40%;
-  max-width: 40%;
+  flex: 0 0 25%;
+  max-width: 25%;
 }
 
 .card:nth-child(4n + 1),
 .card:nth-child(4n + 4) {
-  flex: 0 0 60%;
-  max-width: 60%;
+  flex: 0 0 25%;
+  max-width: 25%;
 }
 
-.card:nth-child(odd) {
-  padding-left: 0;
-}
 
-.card:nth-child(even) {
-  padding-right: 0;
-}
 
 .card-content-container {
   width: 100%;
@@ -109,6 +103,7 @@ li {
 }
 
 .card-content-container.open {
+  margin-top: 40px;
   top: 0;
   left: 0;
   right: 0;
