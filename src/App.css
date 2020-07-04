@@ -103,7 +103,7 @@ li {
 }
 
 .card-content-container.open {
-  margin-top: 40px;
+  margin-top: 70px;
   top: 0;
   left: 0;
   right: 0;
@@ -203,14 +203,14 @@ p {
 
 @media only screen and (max-width: 800px) {
   .card {
-    flex: 0 0 50%;
-    max-width: 50%;
+    flex: 0 0 25%;
+    max-width: 25%;
   }
 
   .card:nth-child(4n + 1),
   .card:nth-child(4n + 4) {
-    flex: 0 0 50%;
-    max-width: 50%;
+    flex: 0 0 25%;
+    max-width: 25%;
   }
 }
 
@@ -222,10 +222,15 @@ p {
     padding-right: 0;
   }
 
-  .card:nth-child(4n + 1),
-  .card:nth-child(4n + 4) {
+  .card:nth-child(2n+1){
     flex: 1 0 100%;
-    max-width: 100%;
+    max-width: 50%;
+    padding-right: 10px;
+  }
+  .card:nth-child(n){
+    flex: 1 0 100%;
+    max-width: 50%;
+    max-height: 300px;
   }
 
   .card-content-container.open {
