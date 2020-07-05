@@ -81,6 +81,13 @@ export const MultiList = () => (
 const cardData = [
   // Photo by ivan Torres on Unsplash
   {
+    id: "k",
+    category: "Tech",
+    title: "Partcipate in a Hackathon!",
+    pointOfInterest: 80,
+    backgroundColor: "#814A0E"
+  },
+  {
     id: "c",
     category: "Arcade",
     title: "Play Atari Breakout to relive the old ages",
