@@ -26,11 +26,13 @@
   
   #### Chat, Goal Sharing 
   Our chat, Multiverse, built on NodeJS and Express allows our users to share their goals and interact with the community leading to positive reinforcement and an overall better relaxed and happier users. 
+  
     <img width="400" alt="Chat Multiverse" src="https://user-images.githubusercontent.com/54809290/86529948-3b912900-bed2-11ea-8473-2d0851fb50d3.png">
 
   
   #### Arcade Games
   Pleasant, short and simple arcade games like our own Save The Water, 2048 and good old Sudoku are available in app (fully integrated in future versions). This makes the webapp the single destination for all your daily needs to help you rewind, relax and rest. 
+  
   <img width="400" alt="Save the Water" src="https://user-images.githubusercontent.com/54809290/86529926-0be22100-bed2-11ea-935b-771ac5565aa2.png">
   
   
