@@ -1,17 +1,14 @@
 import React from 'react'
-import styled from "styled-components";
 
-import logo from "../../assets/logo-min.png";
 
-const Brand = () => {
+import logo from '../../assets/logo-min.svg'
+
+export default function Brand(){
   return (
-    <Image src={logo} alt="Company Logo" />
+    <>
+    <img src={logo} alt="Company Logo" style={{height: "85%"}} /><h1 style={{color: "white", position: "absolute", left:90}}>Play404 </h1>
+    </>
   )
 }
 
-export default Brand
 
-const Image = styled.img`
-  height: 85%;
-  margin: auto 0;
-`;

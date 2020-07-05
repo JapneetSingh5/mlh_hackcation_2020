@@ -2,7 +2,7 @@ import * as React from "react";
 import Footer from 'rc-footer';
 import 'rc-footer/assets/index.css'; 
 
-import logo from "../../assets/logo-min.png";
+import logo from "../../assets/logo-min.svg";
 
 function PageFooter (){
     return(

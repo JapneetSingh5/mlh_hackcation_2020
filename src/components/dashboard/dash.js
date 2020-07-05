@@ -19,7 +19,7 @@ class Dash extends Component {
       return (
          <div id='wrapper'>
             <div id='dash-box'>
-            <img src='images/e.jpg' alt="Profile Image" className="profile-img" />
+            <img src='images/profile.png' alt="Profile Image" className="profile-img" />
             Jonathon Doer   <br></br>
             <small>India</small>
             <h5 style={{opacity: 0.6, marginTop: 10}}>Recent Activities</h5>
