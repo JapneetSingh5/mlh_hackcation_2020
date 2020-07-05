@@ -27,7 +27,7 @@
   #### Chat, Goal Sharing 
   Our chat, Multiverse, built on NodeJS and Express allows our users to share their goals and interact with the community leading to positive reinforcement and an overall better relaxed and happier users. 
   
-    <img width="400" alt="Chat Multiverse" src="https://user-images.githubusercontent.com/54809290/86529948-3b912900-bed2-11ea-8473-2d0851fb50d3.png">
+<img width="400" alt="Chat Multiverse" src="https://user-images.githubusercontent.com/54809290/86529948-3b912900-bed2-11ea-8473-2d0851fb50d3.png">
 
   
   #### Arcade Games
