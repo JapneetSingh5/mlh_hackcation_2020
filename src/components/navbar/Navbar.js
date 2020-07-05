@@ -2,6 +2,7 @@ import React from 'react'
 import styled from "styled-components";
 import { useSpring, animated, config } from "react-spring";
 import { GoHome, GoHeart, GoSearch } from "react-icons/go";
+import { RiDashboardLine } from "react-icons/ri";
 
 import Brand from "./Brand";
 import BurgerMenu from "./BurgerMenu";
@@ -32,7 +33,7 @@ const Navbar = (props) => {
           <NavLinks >
           <nav>
             <NavLink to="/home" style={linkAnimation}><GoHome /> Home</NavLink>
-            <NavLink to="/dashboard" style={linkAnimation}><GoSearch /> Dashboard</NavLink>
+            <NavLink to="/dashboard" style={linkAnimation}><RiDashboardLine /> Dashboard</NavLink>
             <NavLink to="/foryou" style={linkAnimation}><GoHeart /> For You</NavLink>
             <NavLink to="/explore" style={linkAnimation}><GoSearch /> Explore</NavLink>
           </nav>

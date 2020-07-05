@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { GoHome, GoHeart, GoSearch } from "react-icons/go";
+import { RiDashboardLine } from "react-icons/ri";
 
 import { useSpring, animated } from 'react-spring';
 import {
@@ -21,7 +22,7 @@ const CollapseMenu = (props) => {
       >
         <NavLinks>
           <li><NavLink to="/home" onClick={props.handleNavbar}><GoHome /> Home</NavLink></li>
-          <li><NavLink to="/dashboard" onClick={props.handleNavbar}><GoSearch /> Dashboard</NavLink></li>
+          <li><NavLink to="/dashboard" onClick={props.handleNavbar}><RiDashboardLine /> Dashboard</NavLink></li>
           <li><NavLink to="/foryou" onClick={props.handleNavbar}><GoHeart /> For You</NavLink></li>
           <li><NavLink to="/explore" onClick={props.handleNavbar}><GoSearch /> Explore</NavLink></li>
         </NavLinks>

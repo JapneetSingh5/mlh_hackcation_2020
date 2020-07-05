@@ -90,6 +90,7 @@ function Dashboard() {
           <Dash />
           <InspiQuoteBox />
           <Feeling />
+          <Footer />
           </div>);
 }
 
