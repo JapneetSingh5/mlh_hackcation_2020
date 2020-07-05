@@ -1,4 +1,4 @@
-## Play40, by Team 404
+## Play404, by Team 404
   
   Presenting Play404, the one online getaway you need to keep yourself refreshed and relaxed.
   
