@@ -33,6 +33,6 @@
   #### Arcade Games
   Pleasant, short and simple arcade games like our own Save The Water, 2048 and good old Sudoku are available in app (fully integrated in future versions). This makes the webapp the single destination for all your daily needs to help you rewind, relax and rest. 
   
-  <img width="400" alt="Save the Water" src="https://user-images.githubusercontent.com/54809290/86529926-0be22100-bed2-11ea-935b-771ac5565aa2.png">
+<img width="400" alt="Save the water" src="https://user-images.githubusercontent.com/54809290/86530325-852f4300-bed5-11ea-9a81-27031c4d01ad.png">
   
   
