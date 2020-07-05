@@ -9,7 +9,7 @@ import { Container, Row, Col } from 'react-grid';
 
 import Navbar from "./components/navbar/Navbar";
 import { Header } from "./components/activities/Header";
-import { CardList, MultiList } from "./components/activities/CardList";
+import { CardList, MultiList, PlayList, HabitList } from "./components/activities/CardList";
 import Footer from './components/footer/footer';
 import InspiQuoteBox from './components/inspiQuote/quoteBox';
 import Feeling from './components/feelingWidget/widget';
@@ -70,8 +70,6 @@ function ForYou(){
           <br />
           <h1>Activities For You</h1>
           <CardList />
-          <h1>Do It Together : Multiplayer Activities</h1>
-          <MultiList />
           <Footer />
         </div>
         </div>
@@ -84,7 +82,18 @@ function Home() {
 }
 
 function Explore() {
-  return <h2 style={{"marginTop": 100}}>Explore Page</h2>;
+  return (
+            <div className="container" >
+            <Header />
+          <h1 style={{marginTop: 20}}>Do It Together : Multiplayer Activities</h1>
+          <MultiList />
+          <h1 style={{marginTop: 20}}>Inculcate a new habit, start afresh</h1>
+          <HabitList />
+          <h1 style={{marginTop: 20}}>Work Hard, Play Harder</h1>
+          <PlayList />
+          <Footer />
+          </div>
+          );
 }
 
 function Dashboard() {

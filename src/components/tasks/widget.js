@@ -34,11 +34,11 @@ function Tasks() {
         isDone: false                               //the current state value is like 'this.state', the function is an event handler, like this.setState, but has subtle differences
       },                                            //=> useState can also be used multiple times in a function, no limit
       {                                             //=> the initial state does not have to be an object like this.state, it can be anything eg. const [count, addCount] = useState(0) that acts as the state for a counter
-        text: 'Read a chapter from my book',    //=> the syntax is essentially an application of 'Array Destructuring'
+        text: 'Read a chapter ',    //=> the syntax is essentially an application of 'Array Destructuring'
         isDone: false                               //=> 2 rules to know before we dive in further :                                              
       },                                              //1.Only call Hooks at the top level. Don’t call Hooks inside loops, conditions, or nested functions.
       {                                               //2.Only call Hooks from React function components.
-        text: 'Yoga session at 5:30 pm with Divya', 
+        text: 'Yoga at 5:30 pm ', 
         isDone: false
       },
   ])
