@@ -5,7 +5,7 @@
   ### Features
   
   #### Dashboard
-  The dahboard gives you a quick snapshot of what your day looks like. A shot of inspiration and motivation via regularly updated quotes, Your tasks and to-dos, a quick mindful breathing session and more. Dashboard presents you the information you need right when you need it.
+  The dashboard gives you a quick snapshot of what your day looks like. A shot of inspiration and motivation via regularly updated quotes, Your tasks and to-dos, a quick mindful breathing session and more. Dashboard presents you the information you need right when you need it.
   
   #### For You
   The For You tab shows you all the activates you can do, personalised and delivered directly on your screen. View different ways in which you can enrich your day, read about them and add them to your task list if you want.
