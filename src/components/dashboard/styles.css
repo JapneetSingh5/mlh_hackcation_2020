@@ -1,0 +1,85 @@
+.title {
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .profile-img{
+      height: 20%;
+      width: 80%;
+      border-radius: 60px;
+      margin: 20px;
+  }
+  
+  #dash-box {
+    display: inline-block;
+    color: white !important;
+    width: 100%;
+    margin-top:20px;
+    padding: 1px 15px;
+    font-weight: 550;
+    font-size: 22px;
+    background-image: linear-gradient(180deg, #5F2C82 0%, #49A09D 100%);
+    text-align: center;
+    border-radius: 40px;
+  }
+  
+  #dash-text p {
+    color: black;;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+  }
+  
+  #author h5 {
+    margin-bottom: 5px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+  }
+  
+  .button {
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 5px;
+    border: 0;
+  }
+
+  #more {
+    background-image: linear-gradient(180deg, #81FF8A 0%, #64965E 100%);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0;
+    margin-bottom: 10px;
+    border: 0;
+  }
+
+  #stressed {
+    background-image: linear-gradient(180deg, #D31027 0%, #EA384D 100%);
+    color: white;
+    padding: 5px;
+      border-radius: 20px;
+      box-shadow: 0;
+      margin-bottom: 10px;
+  }
+  
+  
+  .button:focus {
+    outline: none;
+    border: none;
+  }
+  
+  @media only screen and (max-width: 450px) {
+    .title {
+      font-size: 22px;
+    }
+    #quote-box {
+      width: 90%;
+    }
+  }
+
+  #wrapper{
+      margin-bottom: 20px;
+      display: inline-block;
+      width: 100%;
+  }
+
+ 
