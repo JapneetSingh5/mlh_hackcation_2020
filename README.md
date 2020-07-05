@@ -3,16 +3,21 @@
   Presenting Play404, the one online getaway you need to keep yourself refreshed and relaxed. 
   
 ### Steps to run the project locally
-- for the React Web Application \
+- for the React Web Application 
+
 in the root of this directory, `npm i && npm start`
-- for the chat app, \
-navigate to client folder \
+- for the chat app, 
+
+navigate to client folder 
+
 ` npm i && npm start `
-navigate to serve folder \
+navigate to server folder 
+
 ` npm i 
   node index.js`
-- for the game \
-navigate to game folder and open game.html \
+- for the game 
+
+navigate to game folder and open game.html 
   
   ### Features
   
