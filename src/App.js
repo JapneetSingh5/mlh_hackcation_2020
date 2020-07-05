@@ -11,6 +11,8 @@ import { Header } from "./components/activities/Header";
 import { CardList, MultiList } from "./components/activities/CardList";
 import Footer from './components/footer/footer';
 import InspiQuoteBox from './components/inspiQuote/quoteBox';
+import Feeling from './components/feelingWidget/widget';
+import Dash from './components/dashboard/dash';
 import './App.css';
 
 import GlobalStyle from './styles/Global';
@@ -43,6 +45,9 @@ class App extends Component {
             <Route exact path="/explore">
               <Explore />
             </Route>
+            <Route exact path="/dashboard">
+              <Dashboard />
+            </Route>
             <Redirect to="/home" />
         </Switch>
       </Router>
@@ -60,7 +65,6 @@ function ForYou(){
         <div className="container">
           <Header />
           <br />
-          <InspiQuoteBox />
           <h1>Activities For You</h1>
           <CardList />
           <h1>Do It Together : Multiplayer Activities</h1>
@@ -78,6 +82,15 @@ function Home() {
 
 function Explore() {
   return <h2 style={{"marginTop": 100}}>Explore Page</h2>;
+}
+
+function Dashboard() {
+  return (<div className="container" >
+          <Header />
+          <Dash />
+          <InspiQuoteBox />
+          <Feeling />
+          </div>);
 }
 
 

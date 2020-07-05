@@ -32,6 +32,7 @@ const Navbar = (props) => {
           <NavLinks >
           <nav>
             <NavLink to="/home" style={linkAnimation}><GoHome /> Home</NavLink>
+            <NavLink to="/dashboard" style={linkAnimation}><GoSearch /> Dashboard</NavLink>
             <NavLink to="/foryou" style={linkAnimation}><GoHeart /> For You</NavLink>
             <NavLink to="/explore" style={linkAnimation}><GoSearch /> Explore</NavLink>
           </nav>
