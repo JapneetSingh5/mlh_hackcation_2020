@@ -5,6 +5,7 @@ import {
   Route,
   Redirect
 } from "react-router-dom";
+import { Container, Row, Col } from 'react-grid';
 
 import Navbar from "./components/navbar/Navbar";
 import { Header } from "./components/activities/Header";
@@ -12,7 +13,9 @@ import { CardList, MultiList } from "./components/activities/CardList";
 import Footer from './components/footer/footer';
 import InspiQuoteBox from './components/inspiQuote/quoteBox';
 import Feeling from './components/feelingWidget/widget';
+import Breathe from './components/breathe/widget';
 import Dash from './components/dashboard/dash';
+import Tasks from './components/tasks/widget';
 import './App.css';
 
 import GlobalStyle from './styles/Global';
@@ -87,9 +90,19 @@ function Explore() {
 function Dashboard() {
   return (<div className="container" >
           <Header />
+          <Container>
+        <Row>
+        <Col xs={12} sm={12} md={6}>
           <Dash />
+          <Tasks />
+        </Col>
+        <Col xs={12} sm={12} md={6}>
           <InspiQuoteBox />
+          <Breathe />
           <Feeling />
+          </Col>
+          </Row>
+          </Container>
           <Footer />
           </div>);
 }

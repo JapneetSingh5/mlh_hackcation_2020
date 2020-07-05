@@ -4,8 +4,9 @@
   }
   
   #quote-box {
-    width: 400px;
-    margin: 0 auto;
+    margin-top: 20px;
+    display: inline-block;
+    width: 100%;
     padding: 1px 15px;
     font-weight: 550;
     font-size: 22px;
@@ -58,6 +59,7 @@
 
   #wrapper{
       margin-bottom: 20px;
+      display: inline-block;
   }
 
   #new-quote{

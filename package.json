@@ -16,6 +16,7 @@
     "rc-footer": "^0.6.3",
     "react": "16.8.4",
     "react-dom": "16.8.4",
+    "react-grid": "^4.0.4",
     "react-icons": "^3.10.0",
     "react-lorem-ipsum": "1.4.3",
     "react-router-dom": "^5.0.1",
