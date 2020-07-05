@@ -16,6 +16,8 @@ import Feeling from './components/feelingWidget/widget';
 import Breathe from './components/breathe/widget';
 import Dash from './components/dashboard/dash';
 import Tasks from './components/tasks/widget';
+import BoardView from './components/2048/index.js';
+import Carousel from './components/carousel/carousel'
 import './App.css';
 
 import GlobalStyle from './styles/Global';
@@ -51,6 +53,9 @@ class App extends Component {
             <Route exact path="/dashboard">
               <Dashboard />
             </Route>
+            <Route exact path="/2048">
+              <BoardView />
+            </Route>
             <Redirect to="/home" />
         </Switch>
       </Router>
@@ -78,7 +83,12 @@ function ForYou(){
 
 
 function Home() {
-  return <h2 style={{"marginTop": 100}}>Landing page</h2>;
+  return (
+    <>
+    <div style={{"marginTop": 100}}>
+  <Carousel />
+  </div>
+  </>);
 }
 
 function Explore() {
